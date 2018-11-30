@@ -1,0 +1,22 @@
+*{margin: 0;padding: 0}
+.fl{float: left;}
+.fr{float: right;}
+.cb{clear: both;}
+ul{list-style: none;}
+.lunbo{width: 1000px;height: 390px;overflow: hidden;position: relative;margin: 0 auto;left: 105px;top: 0px;z-index: -1;}
+.lunbo img{float: left;}
+.boxx{width: 5110px}
+.boxx img{width: 1000px;};
+.btnx{width: 100%;height: 100px;position: absolute;top: 40%;display: none;}
+.lunbo .btn-l,.lunbo .btn-r{background-color: rgba(249,38,114,0.5);width: 50px;height: 100px;font-size: 82px;color: #ccc;border-radius: 10px;}	
+.list-lix{position: absolute;bottom: 10px;left: 20%}
+.list-lix li{float: left;width: 30px;height: 30px;background-color: #FCC;line-height: 30px;text-align: center;border-radius: 50%;margin-left: 10px;color: #FFF;font-size: 15px;}
+/* 	点缀 */
+.dianzui{width: 100%;height: 4px;background-color:#FCC;position: absolute;bottom: 0px}/*轮播进度背景色*/
+.dian{width: 1px;height:4px;background-color:#9D58FA;}
+/* 遮罩层 */
+.fugai{position: absolute;left: 0;top: 0;height: 100%;width: 1000px;
+	}
+.fugai1,.fugai2,.fugai3{width: 243px;height: 1000px;float: left;z-index: 999;overflow: hidden;}
+.btn-con-l,.btn-con-r{width: 150px;height: 100px;}
+.btn-con-l img,.btn-con-r img{width: 100%;height: 100%}

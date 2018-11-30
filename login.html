@@ -1,0 +1,78 @@
+<!doctype html>
+<html><head>
+<meta charset="utf-8">
+<title>服装登录页面</title>
+<link href="css/login (2).css" rel="stylesheet" type="text/css" />
+<script src="js/login (2).js"></script>
+</head>
+
+<body>
+<div class="body">
+<div class="head">
+     
+        <div id="header">
+        
+        	<div class="register_header_left"><img src="images/logo.png" alt="logo"></div>
+        	<div class="register_header_right"><a href="index1.html" class="blue">首页</a> | <a href="product.html" class="blue">商品展示页</a>  | <a href="shopping.html" class="blue">购物车</a> |  <a href="register.html" class="blue">注册</a></div>
+      
+    </div>
+    </div>
+  </div>
+  
+ <div class="gong">
+     <a href="xiagqi.html"><img src="images/dl5.jpg"></a> 
+      <div class="center">
+       <form action="#">
+           <table>
+    
+             <tr><!--行-->
+              <td><span class="aspan" id="ZH">帐号登录</span></td>
+           <tr>
+               <td class="DL"><input type="text" placeholder="邮箱/手机号码/我的ID"></td>
+           </tr>
+           
+           <tr>
+               <td class="DL"><input type="password" placeholder="密码"></td>
+           </tr> 
+            
+           <tr> 
+               <td class="DL">
+<input type="text" id="input1"  placeholder="验证码" value="请输入验证码" onfocus="this.value=''" onblur="if(this.value=='')this.value='验证码'" style="width:220px;padding-right:30px;"/>
+<input type="text" onClick="createCode()" readonly id="checkCode" class="code" style="width:80px" /><br/>
+<input id="button1" onClick="validate();" type="button" value="确定"/>
+  </td>
+           
+           
+            <tr>
+               <td><a href=""><span class="cspan">手机短信登录/</cspan></a><a href="register.html"><span class="cspan">注册</span></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="registe.html">立即注册</a>|<a href="">忘记密码？</a></td>
+             
+             </tr>
+             
+              <tr class="s_one">
+               <td>--------------------其他方式登录---------------------</td>
+             </tr>
+             
+             <tr  class="s_two">
+               <td class="img1"><a href=""><img src="images/QQ.jpg" width="30" id="img1"></a>
+                   <a href=""><img src="images/WEIBO.jpg" width="30" id="img2"></a> 
+                   <a href=""><img src="images/PAY.jpg" width="30" id="img3"></a>
+                   <a href=""><img src="images/VX.jpg" width="30" id="img4"></a>
+               </td>
+             </tr>
+           </table>
+        </form> 
+            
+      </div>
+  </div> 
+  <!--底部标题-->
+  <div class="dibuw">
+ <div class="dibu">关于我们  |  服装类型简介  |  联系我们  |  商家入驻  |  商家后台  |  gwt-biubiu学院  |  商家社区  |  规则中心</div>
+ <div class="dibu">gwt-biubiu版权所有@2018-2206</div>
+ <div class="dibu">分享到：
+ <div class="dibuyi">
+ <a href="https://qzone.qq.com/"><img src="images/QQ.jpg" width="30" id="img1"></a>
+ <a href="https://passport.weibo.cn/signin/welcome?entry=mweibo&r=http%3A%2F%2Fpad.weibo.cn%2F&_T_WM=31965fbfa9ec274e9d5cd8408e2f93d1"><img src="images/WEIBO.jpg" width="30" id="img2"></a> 
+<a href="https://www.alipay.com/"><img src="images/PAY.jpg" width="30" id="img3"></a>
+<a href="https://wx.qq.com/"><img src="images/VX.jpg" width="30" id="img4"></a></div></div>
+</body>
+</html>

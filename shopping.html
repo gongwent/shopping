@@ -1,0 +1,121 @@
+<!--ex8_6.html-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>淘宝购物车</title>
+<script src="js/shopping.js"></script>
+<link href="css/shopping.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="header">
+           <div class="register_header_left"><img src="images/logo.png" alt="logo"></div>
+        	<div class="register_header_right"><a href="index1.html" class="blue">首页</a> | <a href="product.html" class="blue">商品展示页</a>  | <a href="register.html" class="blue">注册</a> |  <a href="login.html" class="blue">登录</a></div>
+      </div>
+<div id="content">
+ <table width="100%" border="0" cellspacing="0" cellpadding="0" id="shopping">
+ <form action="" method="post" name="myform">
+  <tr>
+    <td class="title_1"><input id="allCheckBox" type="checkbox" value=""/>全选</td>
+    <td class="title_2" colspan="2">店铺宝贝</td>
+    <td class="title_3">获积分</td>
+    <td class="title_4">单价（元）</td>
+    <td class="title_5">数量</td>
+    <td class="title_6">小计（元）</td>
+    <td class="title_7">操作</td>
+  </tr>
+  <tr>
+    <td colspan="8" class="line"></td>
+  </tr>
+  <tr>
+    <td colspan="8" class="shopInfo">店铺：<a href="#">妖精的口袋</a>  
+    </td>
+  </tr>
+   <tr id="product1">
+    <td class="cart_td_1"><input name="cartCheckBox" type="checkbox" value="product1"/></td>
+    <td class="cart_td_2"><img src="images/1.jpg" alt="shopping"/></td>
+    <td class="cart_td_3"><a href="#">ins超火衬衫女bf韩范雪纺港风短袖复古怪味少女上衣夏季个性</a><br />
+        颜色：珍珠白 尺码：S<br />
+        </td>
+    <td class="cart_td_4">5</td>
+    <td class="cart_td_5">139.5</td>
+    <td class="cart_td_6"><img src="images/ex8-6-minus.jpg" alt="minus" name="minus" class="hand"/> <input id="num_1" type="text"  value="1" class="num_input" readonly="readonly"/> <img src="images/ex8-6-adding.jpg" alt="add" name="add" class="hand"/></td>
+    <td class="cart_td_7"></td>
+    <td class="cart_td_8"><a name="deleteRow">删除</a></td>
+  </tr>
+  
+ <tr>
+    <td colspan="8" class="shopInfo">店铺：<a href="#">乐町</a>  
+    </td>
+  </tr>
+   <tr id="product2">
+      <td class="cart_td_1"><input name="cartCheckBox" type="checkbox" value="product2"/></td>
+    <td class="cart_td_2"><img src="images/2.jpg" alt="shopping"/></td>
+    <td class="cart_td_3"><a href="#">乐町2018春夏季新款刺绣韩系chic短袖t恤打底衫ins超火的上衣女</a><br />
+        颜色：杏藕粉 尺码：155/S<br />
+       </td>
+    <td class="cart_td_4">5</td>
+    <td class="cart_td_5">99</td>
+    <td class="cart_td_6"><img src="images/ex8-6-minus.jpg" alt="minus" name="minus" class="hand"/> <input id="num_2" type="text"  value="1" class="num_input" readonly="readonly"/> <img src="images/ex8-6-adding.jpg" alt="add" name="add" class="hand"/></td>
+    <td class="cart_td_7"></td>
+    <td class="cart_td_8"><a name="deleteRow">删除</a></td>
+  </tr>
+  
+   <tr>
+    <td colspan="8" class="shopInfo">店铺：<a href="#">omont蛋挞家</a>  
+    </td>
+  </tr>
+   <tr id="product3">
+      <td class="cart_td_1"><input name="cartCheckBox" type="checkbox" value="product3"/></td>
+    <td class="cart_td_2"><img src="images/3.jpg" alt="shopping"/></td>
+    <td class="cart_td_3"><a href="#">omont蛋挞家 简约宽松休闲翻领条纹T恤女夏装修身显瘦短袖POLO衫</a><br />
+        颜色：白底黑条 尺码：S<br />
+       </td>
+    <td class="cart_td_4">5</td>
+    <td class="cart_td_5">89</td>
+    <td class="cart_td_6"><img src="images/ex8-6-minus.jpg" alt="minus" name="minus" class="hand"/> <input id="num_3" type="text"  value="1" class="num_input" readonly="readonly"/> <img src="images/ex8-6-adding.jpg" alt="add" name="add" class="hand"/></td>
+    <td class="cart_td_7"></td>
+    <td class="cart_td_8"><a name="deleteRow">删除</a></td>
+  </tr>
+   <tr>
+    <td colspan="8" class="shopInfo">店铺：<a href="#">PINKS PINK院长</a>  
+    </td>
+  </tr>
+   <tr id="product4">
+      <td class="cart_td_1"><input name="cartCheckBox" type="checkbox" value="product4"/></td>
+    <td class="cart_td_2"><img src="images/4.jpg" alt="shopping"/></td>
+    <td class="cart_td_3"><a href="#">PINK院长 古风style霸气龙印花衬衫大码宽松休闲短袖男女上衣潮</a><br />
+        颜色：蓝色 尺码：M<br />
+       </td>
+    <td class="cart_td_4">5</td>
+    <td class="cart_td_5">119</td>
+    <td class="cart_td_6"><img src="images/ex8-6-minus.jpg" alt="minus" name="minus" class="hand"/> <input id="num_4" type="text"  value="1" class="num_input" readonly="readonly"/> <img src="images/ex8-6-adding.jpg" alt="add" name="add" class="hand"/></td>
+    <td class="cart_td_7"></td>
+    <td class="cart_td_8"><a name="deleteRow">删除</a></td>
+  </tr>
+  
+   <tr>
+   <td  colspan="3"><img src="images/ex8-6-del.jpg" id="deleteSelectRow" alt="delete"/></td>
+    <td colspan="5" class="shopend">商品总价（不含运费）：<label id="total" class="yellow"></label> 元<br />
+    可获积分 <label class="yellow" id="integral"></label> 点<br />
+    <input name=" " type="image" src="images/ex8-6-subtn.jpg" /></td>
+  </tr>
+  </form>
+ </table>
+</div>
+  <!--底部标题-->
+ <div class="dibuw">
+ <div class="dibu">关于我们  |  服装类型简介  |  联系我们  |  商家入驻  |  商家后台  |  gwt-biubiu学院  |  商家社区  |  规则中心</div>
+ <div class="dibu">gwt-biubiu版权所有@2018-2206</div>
+ <div class="dibu">分享到：
+ <div class="dibuyi">
+ <a href="https://qzone.qq.com/"><img src="images/QQ.jpg" width="30" id="img1"></a>
+ <a href="https://passport.weibo.cn/signin/welcome?entry=mweibo&r=http%3A%2F%2Fpad.weibo.cn%2F&_T_WM=31965fbfa9ec274e9d5cd8408e2f93d1"><img src="images/WEIBO.jpg" width="30" id="img2"></a> 
+<a href="https://www.alipay.com/"><img src="images/PAY.jpg" width="30" id="img3"></a>
+<a href="https://wx.qq.com/"><img src="images/VX.jpg" width="30" id="img4"></a></div></div>
+</body>
+</html>
+
+
+

@@ -1,0 +1,195 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin:0px;
+	padding:0px;
+ 
+ opacity:5;
+	}
+	
+a{
+	color:#333333;
+    text-decoration: none;
+}    
+a:hover{
+	color:#333333;
+	text-decoration:underline;
+}
+
+   #register_header{
+	background-image:url(../images/register_head_bg.gif);
+	background-repeat:repeat-x;
+	height:48px;
+	border:solid 1px #CCC;
+}
+    .register_header_left{
+		float:left;
+		margin:30px 0px 0px 40px;
+		display:inline;
+		
+	}
+	.register_header_right{
+		font-size:12px;
+		float:right;
+		margin:60px 20px 0px 0px;
+		display:inline;
+	}  
+
+   .head{
+	   height:100px;
+
+	   }
+	    
+	 
+   .headone{
+	     padding-left:60px;
+		 padding-top:25px;
+	   }
+	 
+   .gong{
+	   height:534px;
+	  background-color:#E0E4F0; 
+	   position:relative;
+	   } 
+	   
+   .center{
+	   height:490px;
+	   width:410px;
+	   background-color:#FFF;
+	   float:right;
+	   position: absolute;
+	   top:33px;
+	   right:86px;
+	   position: relative;
+	   }	
+	   
+   .gong a{
+	    text-decoration: none;
+	   }
+	  
+   .footer a{
+	   text-decoration: none;
+	   }	
+	   
+    form{
+		  padding-top:20px;
+		  margin:auto;
+		  font-size:14px;
+		  position:relative;
+		  padding-left:30px;
+		}   
+
+    .aspan{
+		   font-size:26px;
+		   color:#EF5B00;
+		   margin-top:10px;
+		   text-align:center;
+		   margin-left: 20px;
+		   cursor: pointer;
+
+		}
+		
+	.bspan{
+		 font-size:26px;
+		 margin-right: 20px;
+		 color:#000;
+		 position: absolute;
+		 cursor:pointer;
+		}	
+		
+	.cspan{
+		
+		color:#EF5B00;
+	}	
+		
+	tr{
+	   margin-top:10px;	
+	}
+	
+	.DL input{
+		width:340px;
+		height:40px;
+		border:1px soild #666;
+		margin-top: 24px;
+		padding:6px;
+		}
+		
+	.btn input{
+		width:346px;
+		height:48px;
+		margin-top: 20px;
+		background-color: #EF5B00;
+		font-size: 14px;
+		color: #FFFFFF;
+		cursor:pointer ;
+		}	
+	.s_one{
+		position:relative;
+		top:100px;
+		left:40px;
+		}
+      	
+    .s_two img{
+    	position:relative;
+    	top:110px;
+		left:40px;
+		margin-left: 30px;
+    }
+    
+    .footer{
+      height: 170px;
+      text-align: center;
+      color:#757575;
+      font-size:14px;
+    }
+    
+    p:first-child{
+    	margin-top:95px;
+    }
+    
+    .mouseOverStyle{
+    	background-color: #33C9FF;
+    }    
+
+    .mouseOutStyle{
+    	width:346px;
+		height:48px;
+		margin-top: 20px;
+    	background-color:#05A8F7;
+    	font-size: 14px;
+		color: #FFFFFF;
+    }
+
+    a:hover{
+    	color:red;
+    }
+    
+    .erweima{
+		position:absolute;
+	    height:294px;
+	    width:370px;
+	    top: 80px;
+	    right: 15px;
+	    display: none;
+    }
+    
+   #myClock{
+       background-color:#EAF0F7;
+       text-align:center;
+   } 
+.registerBtn{
+	height:35px;
+	margin:10px 0px 10px 100px;
+	clear:both;
+}
+#code{  
+                color:#ffffff;/*字体颜色白色*/  
+                background-color:#000000;     
+                font-size:18px;  
+                font-family:"华康娃娃体W5";  
+                padding:5px 35px 10px 35px;  
+                margin-left:5%;       
+                cursor:pointer;  
+            }
+			    
